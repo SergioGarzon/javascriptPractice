@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title>Practica Javascript</title>
+    </head>
+
+    <body>
+
+        <h2>Est&aacute; es una prueba de Javascript</h2>
+
+        <br>
+
+        <script>
+            document.write("Empezamos codeando en Javascript de una vez por todas");
+        </script>
+
+        <br>
+
+        <p>Una vez que veamos mucho de Javascript vamos a ver lo que es AngularJS y si puedo Vuejs lo de Udemy</p>
+
+        <table>
+            <tr>
+                <td colspan="2"><input type="button" onclick="document.getElementById('myImage').src = './Imagenes/marioWalk.jpg'" value="Mario Corriendo" /></td>
+                <td colspan="2"><input type="button" onclick="document.getElementById('myImage').src = './Imagenes/marioJump.jpg'" value="Mario Saltando" /></td>
+            </tr>                
+        </table>
+
+        <br>
+        <br>
+
+        <img id="myImage" src="./Imagenes/marioWalk.jpg" alt="Imagen de Mario Bros" width="320px" height="300px" />
+
+        <br>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML = "Mi primer documento Javascript";
+        </script>
+
+        <p id="demo2">Nuevo Parafo</p>
+
+        <input type="button" onclick="newFunction()" value="nuevaFuncion" />
+
+
+        <script type="text/javascript">
+            function newFunction() {
+                document.getElementById("demo2").innerHTML = "Cambio de parrafo!";
+            }
+        </script>
+
+        <br><br>
+
+        <input type="button" onclick="myFunction()" value="Escribir funci&oacute;n" />
+
+
+        <p id="demo3">Nueva llamada Script externos</p>
+
+        <script src="scriptJavascriptPrueba.js"></script>
+
+        <br>
+        <br>
+        <br>
+
+        <script>
+            document.write("Este es el paraiso! <br>");
+            window.document.write("Vamos a salir adelante!");
+            alert("El resultado de la busqueda es: " + (5 + 6));
+            console.log("Hola mundo!");
+        </script>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Ésta es la función de JavaScript para imprimir en la impresora-->
+        <button onclick="window.print()">Imprimir</button>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- La pagina donde quede es:
+                https://www.w3schools.com/js/js_statements.asp
+        -->
+
+
+
+        
+
+
+
+
+
+
+
+    </body>
+
+
+</html>
