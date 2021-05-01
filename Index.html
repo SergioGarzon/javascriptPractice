@@ -89,6 +89,39 @@
 
 
 
+        <input type="number" id="valueX" value="0" />
+        <br>
+        <br>
+        <input type="number" id="valueY" value="0" />
+        <br>
+        <br>
+
+        <input type="button" value="Calcular Suma" onclick="realizarSuma()" /> 
+        <br>
+        <br>
+
+        <p id="valueData"></p>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <script>
+            function realizarSuma() {
+                let x, y, z;
+
+                x = parseInt(document.getElementById("valueX").value);
+                y = parseInt(document.getElementById("valueY").value);
+
+                z = x + y;
+
+                document.getElementById("valueData").innerHTML = "El valor de z es: " + z;
+            }            
+        </script>
+
+
+
         
 
 
